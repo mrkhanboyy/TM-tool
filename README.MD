@@ -1,46 +1,49 @@
-TM-tool is a command line Text-Manipulation tool developed using java.
+# TM-tool v1.0
+A command line Utility tool for text and .txt file manipulation.
 
-How to use?
-1. open command-prompt.
-2. go to directory TM-tool.
-3. write command "java TT" without double quotes.
+* Tool
+<img src="https://i.postimg.cc/7hJz4Mtn/Home.png" width="600px" height="400px">
+<br>
 
+*  File-Manipulation
+<img src="https://i.postimg.cc/SxH1WDCc/option1.png" width="600px" height="400px">
+<br>
 
-What you can do with this tool?
+*  Text-Manipulation
+<img src="https://i.postimg.cc/nLv2qZHt/optinon2.png" width="600px" height="500px">
+<br>
 
-Text file-manipulation.
+## Usage
 
-1.Add prefix/suffix to each line.
-2.Count characters,words and lines.
-3.Find and replace word/text
-4.Remove duplicate lines.
-5.Remove blank lines.
-6.Remove lines containing specific word/text.
-7.Remove lines not-containing specific word/text.
-8.Sort lines of file in Dictionary order.
+#### Installing java
+Install jdk 8 from the below link for your OS.
+```
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+```
+#### Setting java path
+Follow the link
+```
+https://explainjava.com/java-path/
+```
+To confirm java is properly installed and path is set use below command.
+```
+javac -version
+```
+![javac -version output](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.HQUfrxx51llI-3FqSTsMggHaDy%26pid%3DApi&f=1)
 
-Text-manipulation.
+Output must come like this..
 
-1.Repeat text several times.
-2.Generate random text.
-3.Reverse text.
-4.Check if text is Palindrome.
-5.Convert to upper-case.
-6.Convert to lower-case.
-7.Convert to camel-case.
-8.Remove specific character from text.
-9.Count occurence of a specific character.
-10.Count occurence of words which starts with certain character.
-11.Text-detail generator. will give you following text details.
-                 => Length of text.
-                 => Total characters.
-                 => count of Vowels.
-                 => count of Consonants.
-                 => count of spaces.
-                 => count of digits.
-                 => count of punctuation characters.
+### Then follow  Below steps
+* Open command prompt/terminal.
+* Go to TM-tool Directory.
+* Execute following command 
+```
+java TT
+```
 
-
-note:for any help you can mail me at mrkhanboyy@gmail.com
-
-   
+ ## Contact Me
+   Feel free to contact
+  ``` 
+  mail: mrkhanboyy@gmail.com
+  whatsApp Group : https://chat.whatsapp.com/C67egMEpQzaCUlFoXLfUx4
+  ```
