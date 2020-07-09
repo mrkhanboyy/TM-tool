@@ -1,2 +1,0 @@
-must have java 1.7 or above installed in system.
-note:dont forget to set path ;)..
