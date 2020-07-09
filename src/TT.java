@@ -11,13 +11,13 @@ import java.util.Random;
 // main class/ Driver code.
 public class TT {
 	public static void main(String args[]) throws IOException {
-		System.out.println("--------------  WELCOME TO TEXT MANIPULATION TOOL BY RIZ  --------------");
-		System.out.println("--------------------------------------------------v 0.01----------------");
+		System.out.println("--------------  WELCOME TO TEXT MANIPULATION TOOL --------------");
+		System.out.println("-------------------------------------------v 1.0----------------");
 		System.out.println();
 		System.out.println("1. Text-File manipulation.");
 		System.out.println("2. Text manipulation.");
 		System.out.println("3. exit.");
-		System.out.println("input serial number and press Enter....");
+		System.out.println("input option and press Enter....");
 		
 		Scanner sc = new Scanner(System.in);
 		String option;
@@ -79,6 +79,7 @@ public class TT {
 				option1=scan.nextInt();
 				scan.nextLine();
 				switch(option1) {
+					
 				case 1:{
 					System.out.println("Enter file path or drag and drop yout file here : ");
 					path=scan.nextLine();
@@ -303,7 +304,7 @@ private static void textBasedManipulation() {
 		break;
 	}
 	case 12:{
-		System.out.println(" exit successfully.........2");
+		System.out.println(" exit successfully.........");
 		scan.close();
 		break;
 	}
